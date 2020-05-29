@@ -1,0 +1,280 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.nav{
+    box-sizing: content-box;
+    padding: 10px;
+    border: solid;
+    border-radius: 5px;
+     background-color: #f8f9fa; 
+    opacity: 80%;
+    border-color: white;
+    width: max-content;
+    height: 200px;
+    /*background: url(../img/fondoCotiza.png);*/
+}
+
+.title{
+    color: black;
+    font-size: 60px;
+    padding-bottom: 300px;
+    padding-top: 40px;
+}
+
+.first-section{
+    height: 800px;
+    background: url(../img/header.jpg) no-repeat fixed center;
+}
+
+.nav-link{
+    color: white;
+}
+
+.listaNav{
+    padding: 5px;
+    height: 200px;
+    box-sizing: border-box;
+    border-style: none;
+}
+
+.nav-item{
+    width: 100%;
+}
+
+.pieTitulo{
+    font-size: 25px;
+}
+
+.titleCotiza{
+    color: white;
+}
+
+.cotizaSection{
+    background: url(../img/fondoPrueba2.jpg) no-repeat fixed center;
+    height: 800px;
+}
+
+.boxCotiza{
+    position: fixed;
+    margin-top: 300px;
+    height: 400px;
+    width: 400px;
+    border: 5px;
+    border-style: solid;
+    border-radius: 50px;
+    filter: drop-shadow(2px 4px 6px black);
+    background-color: black;
+}
+
+.form-cliente{
+    margin-top: 250px;
+    border: 2px;
+    border-style: solid;
+    border-radius: 25px;
+    padding: 25px;
+    background:url(../img/fondoCotiza.png);
+}
+
+.item-form-cliente{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.title-cliente{
+    text-align: center;
+    color: white;
+}
+
+.section-cliente{
+    height: 800px;
+    background: url(../img/fondoPrueba2.jpg);
+}
+
+.btn-volver-cliente{
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 40px;
+}
+
+.span-volver-cliente{
+    font-size: x-large;
+    color: white;
+}
+
+.fondo-inicio-cliente{
+    background: url(../img/fondoCotiza.png) no-repeat;
+    height: 800px;
+}
+
+.title-inicio-cliente{
+    color: white;
+    margin-top: 30px;
+}
+
+.box-archivos{
+    height: 500px;
+    border: 5px;
+    border-style: solid;
+    border-radius: 20px;
+    background-color: white;
+    opacity: 0.6;
+}
+
+.header-inicio-cliente{
+    height: 200px;
+}
+
+/*.obj-archivo{
+    height: 150px;
+    width: 150px;
+    border: 1px;
+    background-color: black;
+    border-radius: 80px;
+    margin-top: 10px;
+}
+*/
+/*.obj-archivo-mid{
+    height: 150px;
+    width: 150px;
+    border: 1px;
+    background-color: black;
+    border-radius: 80px;
+    margin-top: 10px;
+}
+*/
+
+.obj-archivo{
+    margin-top: 25px;
+}
+
+.obj-archivo-circle{
+    color: #dc3545;
+}
+
+.obj-archivo-title{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.recordatorio-head{
+    border: 2px;
+    height: 200px;
+    border-style: solid;
+    border-radius: 15px;
+    border-bottom: none;
+    margin-top: 20px;
+    border-color: white;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    /* background-color: black; */
+    background: url(../img/fondoAgenda.jpg) no-repeat fixed center;
+    text-align: center;
+    opacity:0.8;
+}
+
+
+.recordatorio-body{
+    border: 2px;
+    height: 500px;
+    border-style: solid;
+    border-radius: 15px;
+    border-top: none;
+    border-color: white;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+     /*background-color: black; */
+    background: url(../img/fondoAgenda.jpg) no-repeat fixed center;
+    opacity: 0.8;
+}
+
+.title-rec-head{
+    margin-top: 30px;
+    color: white;
+}
+
+.span-rec-head{
+    color: white;
+}
+
+.img-money{
+    height: 30px;
+    width: 30px;
+}
+
+.item-table-head-mes{
+    color: white;
+    text-align: center;
+    border: 1px;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+}
+
+.item-table-head-pago{
+    color: white;
+    text-align: center;
+    border: 1px;
+    border-style: solid;
+    border-top: none;
+    border-right: none;
+}
+
+.item-table-body-mes{
+    color: white;
+    text-align: center;
+    border: 1px;
+    border-style: solid;
+    border-color: white;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    padding: 5px;
+}
+
+.item-table-body-pago{
+    color: white;
+    text-align: center;
+    border: 1px;
+    border-style: solid;
+    border-color: white;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    padding: 5px;
+}
+
+.item-check-SI{
+    color: green;
+}
+
+.item-check-NO{
+    color: red;
+}
+
+.agenda-hide{
+    display: none;
+}
+
+.agenda-appear{
+    margin-left: auto;
+}
+
+.buton-item-check{
+    border: none;
+    background-color: transparent;
+}
+
+.form-crear-agenda{
+    height: 100px;
+}
+
+.buton-crear-agenda{
+    float: right;
+}
+
+.tabla-agenda{
+    width:100%;
+}
+
